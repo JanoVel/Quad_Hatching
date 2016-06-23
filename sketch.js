@@ -90,13 +90,13 @@ function makeGrid(){
   if(FG2tempG >= 0 && FG2tempG <= 255){
     tempColorFG2[1] = FG2tempG;
   } else{
-    pErrors.html("invalid foreground G value");
+    pErrors.html("invalid foreground 2 G value");
   }
   var FG2tempB = int(fg2InputB.value());
   if(FG2tempB >= 0 && FG2tempB <= 255){
     tempColorFG2[2] = FG2tempB;
   } else{
-    pErrors.html("invalid foreground B value");
+    pErrors.html("invalid foreground 2 B value");
   }
   colorFG2 = color(tempColorFG2[0], tempColorFG2[1], tempColorFG2[2]);
 
